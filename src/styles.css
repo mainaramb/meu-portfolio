@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bg-main: #200914;         /* Fundo escuro vinho/bordô do seu Figma */
+  --card-bg: #3b1625;         /* Cor dos cards arredondados */
+  --text-main: #f3e8ee;       /* Texto claro */
+  --text-muted: #d1b8c4;      /* Texto secundário */
+  --accent-pink: #e072a4;     /* Destaque rosa/púrpura */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  min-height: 100vh;
+}

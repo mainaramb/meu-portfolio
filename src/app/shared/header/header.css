@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2.5rem;
+  background-color: rgba(32, 9, 20, 0.95);
+  border-bottom: 1px solid rgba(224, 114, 164, 0.2);
+}
+
+.logo span {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--text-main);
+}
+
+.nav-links {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.nav-links button {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.nav-links button:hover {
+  color: var(--text-main);
+  background-color: var(--card-bg);
+}
+
+/* Estado ativo: destaca o botão da página onde o usuário está no momento */
+.nav-links button.active {
+  color: #ffffff;
+  background-color: var(--card-bg);
+  border: 1px solid var(--accent-pink);
+}
